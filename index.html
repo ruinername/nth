@@ -3,38 +3,15 @@
     <link href="style.css" rel="stylesheet">
   </head>
 
-  <body onload="loadFrame()">
+  <body>
     <div style="width: 80%;margin: auto;display:flex; align-items:center;flex-direction: column;">
       <div class="bordered">
         <img src="5.gif" style="width:400px;margin: auto"/>
       </div>
       <div class="block">
         <a href="about.html" class="btn">Подробнее</button><a href="questbook.html" class="btn">Отзывы</a>
-        <a href="buy.html" class="btn" style="width:415px;display:flex;align-items: center; justify-content: center;"><img src="ticket.gif"/><span>Купить билет</span><img src="ticket.gif"/></button>
+        <a href="buy.html" class="btn" style="width:415px;display:flex;align-items: center; justify-content: center;"><img src="ticket.gif"/><span>Купить билет</span><img src="ticket.gif"/></a>
       </div>
-      <div id="frame"><iframe width="1024" height="1000" src="http://1001goroskop.ru/imena/?sovmestimost-po-imenam/"  scrolling="no"> </iframe></div>
-      <div id="frame1"><iframe width="1024" height="1000" src="http://1001goroskop.ru/sovmestimost/"  scrolling="no"> </iframe></div>
     </div>
   </body>
-  <style type="text/css">
-    #frame{
-        overflow: hidden;
-        width:300px;
-        height:80px;
-    }
-    #frame1{
-        overflow: hidden;
-        width:300px;
-        height:80px;
-        margin-top: 50px;
-    }
-    </style>
-  <script type="text/javascript">
-    function loadFrame(){
-        document.getElementById('frame').scrollTop = 332;
-        document.getElementById('frame').scrollLeft = 324;
-        document.getElementById('frame1').scrollTop = 435;
-        document.getElementById('frame1').scrollLeft = 430;
-    }
-</script>
 </html>
