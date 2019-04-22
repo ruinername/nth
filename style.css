@@ -30,4 +30,6 @@ body{
   border-radius: 0;
   background: #dddddd;
   display: inline-block;
+  border-width: 2px;
+  text-align: center;
 }
