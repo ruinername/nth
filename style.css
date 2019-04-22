@@ -29,4 +29,5 @@ body{
   appearance: none;
   border-radius: 0;
   background: #dddddd;
+  display: inline-block;
 }
