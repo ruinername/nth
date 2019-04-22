@@ -24,4 +24,5 @@ body{
   text-decoration: underline;
   width: 200px;
   margin-bottom: 15px;
+  -webkit-appearance: none;
 }
