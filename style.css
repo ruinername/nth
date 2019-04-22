@@ -33,3 +33,35 @@ body{
   border-width: 2px;
   text-align: center;
 }
+
+.guestbook-text-container {
+    padding: 20px;
+    width: 460px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: #2dc3ff;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    margin: 35px 0 25px;
+    color: #000;
+    font-size: 1.7em;
+    line-height: 1.2em;
+    position: relative;
+    border: 2px solid #cfcfcf;
+}
+
+.about-text-container {
+    padding: 20px;
+    width: 460px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: green;
+    background-size: auto 100%;
+    background-repeat: repeat-x;
+    margin: 35px 0 25px;
+    color: #000;
+    font-size: 1.7em;
+    line-height: 1.2em;
+    position: relative;
+    border: 2px solid #cfcfcf;
+}
